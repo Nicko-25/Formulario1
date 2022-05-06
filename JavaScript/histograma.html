@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        const myArray = [1, 2, 3, 2, 5, 5, 3, 5, 1, 2];
+        let uno = "", dos = "",  tres = "", cuatro = "", cinco = "";
+        for (let i of myArray) {
+            switch (i) {
+                case 1:
+                    uno += "*";
+                    break;
+                case 2:
+                    dos += "*";
+                    break;
+                case 3:
+                    tres += "*";
+                    break;
+                case 4:
+                    cuatro += "*";
+                    break;
+                case 5:
+                    cinco += "*";
+                    break;
+            }
+        }
+        console.log(`1:${uno} \n2:${dos} \n3:${tres} \n4:${cuatro} \n5:${cinco}`);
+    </script>
+
+</body>
+
+</html>
