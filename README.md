@@ -1,2 +1,0 @@
-# Formulario
- Prueba Tecnica Supra
